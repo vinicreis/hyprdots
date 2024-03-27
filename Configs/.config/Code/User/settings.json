@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
     "window.menuBarVisibility": "toggle",
     "editor.fontSize": 12,
     "editor.scrollbar.vertical": "hidden",
@@ -8,11 +7,12 @@
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.enabled": false,
     "editor.minimap.side": "left",
-    "editor.fontFamily": "'Maple Mono', 'monospace', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd  Font Mono', 'Fira Code', monospace",
     "extensions.autoUpdate": false,
     "workbench.statusBar.visible": false,
     "terminal.external.linuxExec": "kitty",
     "terminal.explorerKind": "both",
     "terminal.sourceControlRepositoriesKind": "both",
-    "telemetry.telemetryLevel": "off"
+    "telemetry.telemetryLevel": "off",
+    "editor.fontLigatures": true
 }
