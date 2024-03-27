@@ -5,7 +5,7 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=()
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
@@ -57,6 +57,7 @@ alias pa='$aurhelper -Ss' # list availabe package
 alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 alias vc='code --ozone-platform-hint=wayland --disable-gpu' # gui code editor
+alias code="code --ozone-platform-hint=wayland --disable-gpu"
 
 # Handy change dir shortcuts
 alias ..='cd ..'
@@ -73,6 +74,3 @@ alias ssh='kitten ssh'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-#Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
